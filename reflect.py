@@ -9,7 +9,7 @@ user_thought = input("Write your thought:\n").strip()
 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 # API key
-API_KEY = "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"
+API_KEY = "" #removed hardcoded api-key
 
 headers = {
     "Authorization": f"Bearer {API_KEY}",
